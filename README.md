@@ -60,7 +60,3 @@ const result = await bus.execute('email.send', {
 ```
 
 Executes the handler for the given message with the provided data. Returns a Promise with the handler's result. Throws an error if no handler is registered.
-
-## License
-
-MIT
